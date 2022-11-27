@@ -64,3 +64,8 @@ footer{
   display: flex;
   justify-content: center;
 }
+
+.currentDay {
+  font-size: 20px;
+  color: #000000;
+}
