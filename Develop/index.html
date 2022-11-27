@@ -34,16 +34,14 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container-fluid px-5">
+
+    <!-- container of the time blocks -->
+    <div class="container">
+
       <!-- Use class for "past", "present", and "future" to apply styles to the
         time-block divs accordingly. The javascript will need to do this by
         adding/removing these classes on each div by comparing the hour in the
-        id to the current hour. The html provided below is meant to be an example
-        demonstrating how the css provided can be leveraged to create the
-        desired layout and colors. The html below should be removed or updated
-        in the finished product. Remember to delete this comment once the
-        code is implemented.
-        -->
+        id to the current hour. -->
 
       <!-- 9AM TIME -->
       <div id="hour-9" class="row time-block">
@@ -125,6 +123,7 @@
           <i class="fas fa-save"></i>
         </button>
       </div>
+
     </div>
 
     <footer><p>Made with 🤍️ by <a href="https://github.com/JagpreetRandio">Jagpreet Randio</a></p></footer>
