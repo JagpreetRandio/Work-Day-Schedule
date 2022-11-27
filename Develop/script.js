@@ -6,16 +6,16 @@
 var saveBtn = $("saveBtn");
 
 //this will show the date on top of the page
-// var todayDate =dayjs().format("dddd, MMM Do YYYY");
-// $("#currentDay").text(todayDate);
-
 var todayDate = moment();
-$("#currentDay").text(todayDate.format("dddd, MMM Do YYYY"));
+$("#currentDay").text(todayDate.format("LLLL"));
 
+var currentTime = moment().format("H");
+console.log();
 
-$(function () {
-});
+// TIME BLOCK FUNCTION FOR THE PAST, PRESENT, AND FUTURE CLASS
+function timeColor (){
 
+}
 
 
   
