@@ -1,3 +1,4 @@
+$(document).ready(function() {
 //this will show the date on top of the page
 var todayDate = moment();
 $("#currentDay").text(todayDate.format("LLLL"));
@@ -16,19 +17,23 @@ $(".saveBtn").on("click", function() {
 });
 
 // TIME BLOCK FUNCTION FOR THE PAST, PRESENT, AND FUTURE CLASS
-function timeColor (){
-  var hour = moment().format("H");
+function timeBlockColor() {
+  var hour = moment().hours();
+
   $(".time-block").each(function() {
-    var currHour = parseInt($(this).attr("id"));
-    if (currHour > hour) {
-        $(this).addClass("future");
-    } else if (currHour === hour) {
-        $(this).addClass("present");
-    } else {
-        $(this).addClass("past");
-    }
-})
+      var currentHour = parseInt($(this).attr("id")); 
+
+      if (currentHour > hour) {
+          $(this).addClass("future");
+      } else if (currentHour === hour) {
+          $(this).addClass("present");
+      } else {
+          $(this).addClass("past");
+      }
+  })
 };
+timeBlockColor();
+
 
 //Information stays on the page when refreshed
 $("#hour-9 .description").val(localStorage.getItem("hour-9"));
@@ -42,7 +47,4 @@ $("#hour-16 .description").val(localStorage.getItem("hour-16"));
 $("#hour-17 .description").val(localStorage.getItem("hour-17"));
 
 
-timeColor();
-
-  
-
+});
