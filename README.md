@@ -15,6 +15,7 @@ URL of Deployment: https://jagpreetrandio.github.io/Work-Day-Schedule/
 
 ## Credits
 
+N/A
 
 ## Contact Me
 
