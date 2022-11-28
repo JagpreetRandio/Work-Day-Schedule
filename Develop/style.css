@@ -17,6 +17,17 @@ textarea {
   white-space: pre-wrap;
 }
 
+.display-3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lead{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .time-block {
   border-radius: 15px;
 }
@@ -46,11 +57,19 @@ textarea {
   color: white;
 }
 
+.hour{
+  background-color: #C6AEC7;
+  display: flex;
+  justify-content: center;
+  font-size: 15PX;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #8ddbec;
+  background-color: #C6AEC7;
   color: white;
 }
 
@@ -63,6 +82,7 @@ footer{
   font-size: 20px;
   display: flex;
   justify-content: center;
+  color: #000000;
 }
 
 .currentDay {
