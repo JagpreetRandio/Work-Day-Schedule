@@ -10,7 +10,7 @@ URL of Deployment: https://jagpreetrandio.github.io/Work-Day-Schedule/
 
 ## Usage
 
-![alt text](assets/module-5.gif) 
+![alt text](assets/ezgif.com-gif-maker.gif) 
 
 ## Credits
 
