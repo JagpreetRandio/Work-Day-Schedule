@@ -10,11 +10,18 @@ URL of Deployment: https://jagpreetrandio.github.io/Work-Day-Schedule/
 
 ## Usage
 
-![alt text](assets/05-third-party-apis-homework-demo.gif) 
+![alt text](assets/module-5.gif) 
 
 ## Credits
 
 N/A
+
+## Contact Me
+
+Jagpreet Randio - jagpreet9219@gmail.com
+
+Github - https://github.com/JagpreetRandio
+
 
 ## License
 
