@@ -11,7 +11,6 @@ URL of Deployment: https://jagpreetrandio.github.io/Work-Day-Schedule/
 ## Usage
 
 ![](https://raw.githubusercontent.com/JagpreetRandio/Work-Day-Schedule/main/Assets/ezgif.com-gif-maker.gif)
-![](file:///Users/jagpreet/Downloads/Untitled_%20Nov%2028,%202022%203_00%20PM%20(2).gif)
 
 
 ## Credits
